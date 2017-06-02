@@ -9,8 +9,8 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { TimelineComponent } from './timeline/timeline.component';
-import {AppRoutingModule} from "./app-routing.module";
 import { ContactComponent } from './contact/contact.component';
+import {HomeComponent} from "./home/home.component";
 
 @NgModule({
   declarations: [
@@ -19,14 +19,14 @@ import { ContactComponent } from './contact/contact.component';
     NavComponent,
     FooterComponent,
     TimelineComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     NgbModule.forRoot(),
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
