@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContactComponent } from './contact/contact.component';
 import {HomeComponent} from "./home/home.component";
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {HomeComponent} from "./home/home.component";
     FooterComponent,
     TimelineComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
