@@ -15,5 +15,7 @@ body {
   border-bottom: #f1ac44 solid 2px;
   border-radius: 0;
 }
-
+.orange-text{
+  color: #f1ac44;
+}
 
