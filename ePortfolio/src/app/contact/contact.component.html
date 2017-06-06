@@ -1,25 +1,30 @@
 <div class="container bottom">
   <h1>Contact</h1>
-  <div class="contact">
+  <div class="row">
+  <div class="contact col-md-6">
     <h4>Stuur een email</h4>
     <form class="form">
       <div class="form-group">
         <label for="naam">Naam:</label>
-        <input type="text" class="form-control" id="naam" placeholder="" required>
+        <input type="text" class="form-control" name="naam" id="naam" placeholder="" required>
       </div>
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="email@provider.com" email required>
+        <input type="email" class="form-control" name="email" id="email" placeholder="email@provider.com" email required>
       </div>
       <div class="form-group">
         <label for="onderwerp">Onderwerp:</label>
-        <input type="text" class="form-control" id="onderwerp" placeholder="" required>
+        <input type="text" class="form-control" name="onderwerp" id="onderwerp" placeholder="" required>
       </div>
       <div class="form-group">
         <label for="exampleTextarea">Bericht:</label>
-        <textarea class="form-control" id="exampleTextarea" rows="4" required></textarea>
+        <textarea class="form-control" name="bericht" id="exampleTextarea" rows="4" required></textarea>
       </div>
-      <button type="submit" class="btn btn-secondary orange-button">Submit</button>
+      <input type="reset" class="btn btn-secondary orange-button" value="Verzenden">
     </form>
   </div>
+  <div class="col-md-6">
+
+  </div>
+</div>
 </div>
