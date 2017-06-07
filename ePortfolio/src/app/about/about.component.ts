@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-about',
@@ -6,15 +7,14 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  age: Date;
-  birth = new Date(1995, 21);
-  today = new Date();
 
-  constructor() {
+  age = moment().diff('1995-07-21', 'years',false);
+
+    constructor() {
+
   }
 
   ngOnInit() {
-    console.log('birth'+this.birth);
   }
 
 }
